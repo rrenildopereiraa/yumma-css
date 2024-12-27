@@ -2,11 +2,10 @@
 @use "../../../abstracts/functions/create-values" as fns;
 @use "../../../abstracts/variables" as vars;
 
-$yma-flex-basis-map: map.merge(
+$yma-transform-translate-map: map.merge(
   (
-    "auto": auto,
     "full": 100%,
     "half": 50%,
   ),
-  fns.create-values(vars.$yma-flex-basis)
+  fns.create-values(vars.$yma-transform-translate)
 );
